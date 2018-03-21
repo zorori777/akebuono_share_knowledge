@@ -80,3 +80,22 @@ https://www.zeiri4.com/c_1032/c_1040/h_299/
 #大変便利な用語集
 
 https://mba.globis.ac.jp/about_mba/glossary/
+
+
+## 適宜学んだ言葉
+
+賃貸貸借表
+
+- 資本剰余金とは
+株主から投資をしてもらうときに全額資本金にする必要はなく、いざというときに資本金にあてるために、資本準備金としてまわしてもよい。
+
+- 利益剰余金
+会社の売上を積み立てたお金
+
+http://www.smbcnikko.co.jp/terms/japan/ri/J0547.html
+
+- 利益準備金
+利益剰余金のうち、企業が利益の一部を株主に配当際に、配当の10分の1を積み立てることが法律で義務付けられている。
+財務基盤強化の為である。
+
+http://www.smbcnikko.co.jp/terms/japan/ri/J0548.html
