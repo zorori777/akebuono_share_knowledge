@@ -104,3 +104,15 @@ http://www.smbcnikko.co.jp/terms/japan/ri/J0547.html
 財務基盤強化の為である。
 
 http://www.smbcnikko.co.jp/terms/japan/ri/J0548.html
+
+
+
+
+- 実行税率
+
+```
+企業の実質的な税負担率のこと
+主要な税金である法人税・住民税（法人税割）・事業税についてトータルでいくら負担しているのかを示す比率（税前利益に対する比率）
+```
+
+http://www.keieibunseki.com/anzen/index56.html
