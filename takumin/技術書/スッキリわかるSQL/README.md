@@ -30,3 +30,9 @@
 参考
 http://wa3.i-3-i.info/word11317.html
 
+
+## テーブルの作成
+- DCLとは(Data Control Language)
+`Grant`(与える)と`Revoke`(奪う)がある。
+これは誰にどのようなデータ操作や権限を設定することができる。
+
