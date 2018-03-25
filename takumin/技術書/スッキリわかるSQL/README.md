@@ -53,7 +53,7 @@ http://wa3.i-3-i.info/word11317.html
 
 - テーブルを変更したときにindexも変更する必要がある。
 
-##　ACIDの原則
+## ACIDの原則
 
 - Atomic(原子性)
 
