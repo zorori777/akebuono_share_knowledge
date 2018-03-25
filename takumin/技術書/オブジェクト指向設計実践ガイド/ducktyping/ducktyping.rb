@@ -1,41 +1,49 @@
-# class Trip
-#   attr_reader :bicycles, :customers, :vehicle
+# 学び
+- 動的言語は渡したのもがどのように振る舞うかは渡したもの自信が決定する。
+つまりメソッドが定義されてれば継承していない場合でも呼び出すことが出来る。
+class Dog
+  def say; puts 'ワンワン'; end
+end
 
-#   def prepare(mechanic)
-#     # prepare_bicyclesに応答できるオブジェクトを受け取るということに依存している。
-#     # 引数が自転車を準備することを信じている
-#     mechanic.prepare_bicycles(bicycles)
-#   end
-# end
+class Duck
+  def say; puts 'ガーガー'; end
+end
 
-
-# class Mechanic
-#   def prepare_bicycles(bicycles)
-#     bicycles.each { |bicycle| prepare_bicycle(bicycle) }
-#   end
-
-#   def prepare_bicycle
-#   end
-# end
-
-
-
-##ダックタイピング後
-
-class Trip
-  attr_reader :bicycle, :customers, :vehicle
-
-  def prepare(prepares)
-    prepares.each {|prepare|
-      preparer.prepare_trip(self)
-    }
+class Human
+  def touch(animal)
+    animal.say
   end
 end
 
-class Mechanic
-  def prepare_trip(trip)
-    trip.bicycles.each { |bicycle|
-      prepare_bicycle(bicycle)
-    }
-  end
-end
+human = Human.new
+dog   = Dog.new
+duck  = Duck.new
+
+human.touch(dog)    #=>"ワンワン"
+human.touch(duck)   #=>"ガーガー"
+
+# class Takumi
+#   def call_taku
+#     puts "Wata！"
+#   end
+# end
+
+# class Watasan
+#   def call_taku
+#     puts "Takumin!"
+#   end
+# end
+
+# class Watanabe
+#   def need(who)
+#     who.call_taku
+#   end
+# end
+
+# takumi = Takumi.new
+# watasan = Watasan.new
+# nabe = Watanabe.new
+
+
+# nabe.need(takumi)
+# nabe.need(watasan)
